@@ -1,0 +1,65 @@
+** start of undefined **
+
+<DOCTYPE html!> 
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <h1 id="title">
+        Survey Form
+      </h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+      <form id="survey-form">
+        <fieldset>
+        <label id="name-label">Name:<input required id="name" type="text" placeholder="Enter your name"></label>
+        <label id="email-label">Email:<input required id="email" type="email" placeholder="Enter your email"></label>
+        <label id="number-label">Age:<input required id="number" type="number" min="18" max="120" placeholder="Age"></label>
+        <label>Which option best describes your current role?</label>
+        <select name="rule" id="dropdown">
+          <option value="current">Select current rule</option>
+          <option value="costumers banker">Costumers Banker</option>
+          <option value="costumers manager">Costumers Manager</option>
+        </select>
+        <label>Will you reccomend a friend to work here?</label>
+        <input type="radio" name="reccomend" value="yes">Yes
+        <input type="radio" name="reccomend" value="no">No
+        <label>What should we improve?</label>
+          <input type="checkbox" value="salary">Salary</label>
+          <label><input type="checkbox" value="treatment">Treatment</label>
+          <label><input type="checkbox" value="sibos">Sibos</label>
+          <label><input type="checkbox" value="workhours">Work hours</label>
+          <label><input type="checkbox" value="hybrid">Hybrid</label>
+  <textarea></textarea>
+  <input type="submit" id="submit">
+        </fieldset>
+      </form>
+    
+    </body>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+input{
+  display:block;
+}
+
+label{
+  display:block;
+}
+
+input[type="radio"]{
+display:inline ;
+}
+
+input[type="checkbox"]{
+display:inline ;
+}
+
+
+** end of undefined **
+
